@@ -1,1 +1,18 @@
+body {
+    background-color: #78c9ff98;
+    color: #000000;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+}
 
+button {
+    background-color: #78c9ff4f;
+    color: #000000;
+    font-family: "Crimson Text", serif;
+}
