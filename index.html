@@ -1,35 +1,320 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <title>Aventura na Amazônia</title>
 </head>
+
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
-            <p>Nas profundezas da floresta amazônica, onde o som dos rios caudalosos se mistura com o eco distante das aves exóticas, um segredo antigo aguarda aqueles corajosos o bastante para desbravá-lo.
-                Entre ruínas esquecidas e árvores gigantecas, lendas de uma civilização perdida espalham-se como o vento entre as aldeias ribeirinhas, atraindo exploradores de todos os cantos do mundo.
-                Os rumores falam de tesouros inestimáveis, mas também de perigos insondáveis, ocultos por armadilhas ancestrais e guardados por criaturas tão antigas quanto o próprio Brasil.
-                A aventura começa com a promessa de glória, mas também com o peso de um destino incerto, onde cada passo pode mudar o rumo da história.
+            <img src="cenario-passo0.png" alt="">
+            <p>Nas profundezas da floresta amazônica, onde o som dos rios caudalosos se mistura com o eco distante das
+                aves exóticas, um segredo antigo aguarda aqueles corajosos o bastante para desbravá-lo.
+                Entre ruínas esquecidas e árvores gigantecas, lendas de uma civilização perdida espalham-se como o vento
+                entre as aldeias ribeirinhas, atraindo exploradores de todos os cantos do mundo.
+                Os rumores falam de tesouros inestimáveis, mas também de perigos insondáveis, ocultos por armadilhas
+                ancestrais e guardados por criaturas tão antigas quanto o próprio Brasil.
+                A aventura começa com a promessa de glória, mas também com o peso de um destino incerto, onde cada passo
+                pode mudar o rumo da história.
             </p>
             <button class="btn-proximo" data-proximo="1">Seguir a direita</button>
             <button class="btn-proximo" data-proximo="2">Seguir a esquerda</button>
         </div>
         <div class="passo" id="passo-1">
-            <p>Ao escolher o caminho à direito, o explorador adentra uma trilha estreita, coberta por raízes retorcidas e folhas secas que rangem sob os pés. A vegetação parece ficar cada vez mais densa, bloqueando a luz do sol, enquanto o som da floresta ganha um tom mais abafado e misterioso.
-                Após alguns minutos de caminhada, o jogador se depara com uma pequena clareira, onde uma antiga estátua de pedra, coberta por musgo e esculpida em forma de uma figura humanoide, se ergue imponente.
-                À frente, duas passagens se abrem: uma segue por um túnel natural entre as árvores, com o cheiro de terra húmida e escuridão total, enquanto a outra é um caminho mais aberto, porém com rastros frescos de algum animal grande.
+            <img src="cenario-passo1.png" alt="">
+            <p>Ao escolher o caminho à direita, o explorador adentra uma trilha estreita, coberta por raízes retorcidas
+                e folhas secas que rangem sob os pés. A vegetação parece ficar cada vez mais densa, bloqueando a luz do
+                sol, enquanto o som da floresta ganha um tom mais abafado e misterioso.
+                Após alguns minutos de caminhada, o jogador se depara com uma pequena clareira, onde uma antiga estátua
+                de pedra, coberta por musgo e esculpida em forma de uma figura humanoide, se ergue imponente.
+                À frente, duas passagens se abrem: uma segue por um túnel natural entre as árvores, com o cheiro de
+                terra húmida e escuridão total, enquanto a outra é um caminho mais aberto, porém com rastros frescos de
+                algum animal grande.
             </p>
             <button class="btn-proximo" data-proximo="3">Seguir túnel</button>
             <button class="btn-proximo" data-proximo="4">Seguir trilha à frente</button>
         </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2.png" alt="">
+            <p>Ao optar pelo caminho à esquerda, o explorador sente a brisa úmida e fria que sopra da floresta mais
+                densa.
+                O ambiente ao redor começa a mudar gradativamente, com árvores cada vez mais altas e antigas, cujas
+                copas formam um teto natural, bloqueando quase toda a luz do dia.
+                O ar está impregnado com o aroma forte de plantas e o som de passos sobre folhas secas se mistura com o
+                farfalhar distante de criaturas que espreitam nas sombras.
+                Após alguns minutos de caminhada, o caminho se bifurca novamente.
+                À esquerda, há um antigo altar de pedra, parcialmente enterrado no solo e coberto por raízes, com
+                inscrições desconhecidas que parecem contar uma história perdida no tempo.
+                À direita, um rio caudaloso corta a floresta, com uma pequena ponte de madeira que parece estar prestes
+                a desmoronar.
+            </p>
+            <button class="btn-proximo" data-proximo="5">Investigar o altar</button>
+            <button class="btn-proximo" data-proximo="6">Atravessar a ponte</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo3.png" alt="">
+            <p>O explorador avança pelo túnel natural, que se torna cada vez mais estreito e sinuoso.
+                A escuridão é quase total, mas a luz de uma tocha improvisada revela paredes úmidas e cobertas por
+                fungos luminescentes que emitem um brilho verde pálido.
+                O som de gotas d'água caindo ecoa pelo túnel, criando uma sinfonia de ritmos naturais.
+                Após alguns minutos, o túnel se alarga e o explorador chega a uma câmara subterrânea impressionante.
+                No centro da câmara, um pedestal de pedra segura um antigo artefato coberto por um pano de seda
+                empoeirada.
+                Ao redor do pedestal, símbolos enigmáticos estão gravados nas paredes, e uma estranha sensação de
+                reverência permeia o ambiente.
+                Perto da entrada da câmara, há uma passagem pequena e baixa que leva a uma área ainda mais profunda, e
+                uma escada de pedra que sobe para um nível superior da caverna, onde uma luz suave parece brilhar.
+            </p>
+            <button class="btn-proximo" data-proximo="7">Seguir pela passagem pequena</button>
+            <button class="btn-proximo" data-proximo="8">Subir pela escada</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.png" alt="">
+            <p>Ao escolher o caminho mais aberto, o explorador segue pela trilha, que se torna cada vez mais ampla e
+                visível. O chão está coberto de folhas secas e galhos quebrados, e o ambiente ao redor parece ter sido
+                recentemente perturbado por algum grande animal.
+                Após uma caminhada tranquila, o explorador chega a uma nova área da floresta, onde uma grande árvore
+                caída forma um tipo de ponte natural sobre um riacho cristalino. Do outro lado do riacho, é possível ver
+                uma pequena construção de pedra parcialmente coberta pela vegetação. A construção tem aparência de um
+                antigo templo ou santuário, com símbolos esculpidos nas paredes e uma porta de madeira aparentemente
+                intacta.
+                Perto da construção, há um campo de flores exóticas que emitem um aroma doce, contrastando com o
+                ambiente mais sombrio e úmido da floresta.
+            </p>
+            <button class="btn-proximo" data-proximo="9">Atravessar a árvore caída para chegar ao templo</button>
+            <button class="btn-proximo" data-proximo="10">Investigar o campo de flores</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo5.png" alt="">
+            <p>O explorador se aproxima do antigo altar de pedra, cujas inscrições são parcialmente cobertas por
+                musgo e raízes. As marcas gravadas parecem formar padrões geométricos e símbolos misteriosos que não
+                são imediatamente compreensíveis. O altar tem uma aparência imponente, e a sensação de antiguidade é
+                quase palpável.
+                Examinando o altar mais de perto, o explorador nota que há uma pequena cavidade no centro, onde um
+                objeto parece estar escondido. Com cuidado, remove as raízes e o musgo que cobrem a cavidade,
+                revelando um antigo amuleto de ouro, com uma pedra preciosa em seu centro e símbolos semelhantes aos
+                que estão no altar.
+                Enquanto observa o amuleto, o explorador ouve um som sutil, como o de pedras se movendo, e percebe
+                que o altar pode ser parte de um mecanismo maior. Algumas das inscrições ao redor parecem se
+                destacar quando o amuleto é removido, sugerindo que o altar pode ter um propósito ou um segredo a
+                ser revelado.
+            </p>
+            <button class="btn-proximo" data-proximo="11">Levar o amuleto e explorar mais o altar</button>
+            <button class="btn-proximo" data-proximo="12">Colocar o amuleto de volta e seguir pela trilha</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo6.png" alt="">
+            <p>O explorador se aproxima da ponte de madeira que cruza o rio caudaloso. A estrutura parece instável,
+                com algumas tábuas soltas e cordas desgastadas, mas ainda é possível atravessá-la com cuidado. Ao
+                pisar nas tábuas, elas rangem e balançam ligeiramente, mas a travessia é possível.
+                Do outro lado do rio, o terreno se eleva ligeiramente e o explorador encontra uma pequena clareira
+                onde se ergue um antigo templo de pedra, coberto por vegetação e musgo. O templo tem uma fachada
+                impressionante, com colunas esculpidas e uma grande entrada ornamentada com símbolos desconhecidos.
+                Ao explorar o templo, o explorador nota que há duas entradas principais: uma grande porta de pedra
+                com uma imagem de um guardião esculpido, e uma passagem lateral menor que parece menos imponente,
+                mas pode levar a áreas interiores menos exploradas.
+            </p>
+            <button class="btn-proximo" data-proximo="13">Entrar pela grande porta de pedra</button>
+            <button class="btn-proximo" data-proximo="14">Explorar a passagem lateral</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo7.png" alt="">
+            <p>O explorador decide seguir pela passagem pequena ao fundo do túnel. A passagem é estreita e baixa,
+                exigindo que se mova com cuidado. À medida que avança, o espaço se torna ainda mais apertado, e a
+                sensação de claustrofobia começa a crescer.
+                Finalmente, a passagem se abre para uma câmara subterrânea oculta, iluminada por uma luz suave que
+                parece emanar de um cristal incrustado na parede. No centro da câmara, há um altar de pedra, coberto por
+                uma capa de seda antiga e ornado com uma inscrição antiga. Ao lado do altar, um baú de tesouro repousa,
+                parcialmente coberto por pó e teias de aranha.
+                Ao se aproximar do altar, o explorador encontra um livro antigo aberto, cujas páginas estão cheias de
+                desenhos e textos enigmáticos. As palavras são quase indecifráveis, mas os desenhos mostram o mesmo
+                símbolo que está esculpido no altar.
+                O baú, quando aberto, revela um conjunto de artefatos e joias de valor inestimável, que brilham com uma
+                luz própria. Contudo, a verdadeira riqueza parece estar nas respostas e mistérios revelados pelo livro
+                antigo e o altar, que guardam os segredos da antiga civilização que um dia habitou estas terras.
+                O explorador compreende que a jornada foi além de uma busca por tesouros materiais, levando a uma
+                descoberta profunda sobre o passado e o legado da floresta amazônica. A aventura chega ao fim com uma
+                sensação de realização e reverência pelo mistério que foi desvendado.
+            </p>
+            <button class="btn-proximo" data-proximo="0">FIM</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo8.png" alt="">
+            <p>Ao optar por subir pela escada de pedra, o explorador ascende para um nível superior da caverna. A escada
+                é estreita e íngreme, com degraus desgastados pelo tempo. À medida que sobe, a luz suave que brilhava no
+                fundo da caverna torna-se mais intensa, iluminando o caminho.
+                No topo da escada, o explorador encontra-se em uma câmara elevada com paredes de pedra ornamentadas e um
+                teto abobadado que se abre para uma vista deslumbrante da floresta abaixo. A luz que permeia a câmara
+                vem de uma abertura natural na rocha, através da qual a luz do sol entra, criando um efeito quase
+                mágico.
+                No centro da câmara, há um pedestal de pedra que sustenta um cristal de grande tamanho, que parece
+                pulsar com uma energia vibrante. Em torno do pedestal, há inscrições e símbolos que refletem uma antiga
+                sabedoria sobre a harmonia da natureza e os poderes místicos da floresta.
+                Ao investigar o cristal, o explorador percebe que ele está em perfeita sintonia com os símbolos ao
+                redor, e uma sensação de paz e clareza toma conta. O cristal parece ter um propósito sagrado,
+                possivelmente ligado à proteção e equilíbrio da floresta.
+                Ao deixar a câmara, o explorador sente que não apenas encontrou um tesouro valioso, mas também
+                compreendeu uma conexão profunda com a natureza e os antigos mistérios que ela guarda. A jornada culmina
+                em uma sensação de realização e respeito pelos segredos desvendados e pela beleza intocada da floresta
+                amazônica.
+            </p>
+            <button class="btn-proximo" data-proximo="0">FIM</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo9.png" alt="">
+            <p>Ao atravessar a árvore caída que serve como uma ponte natural sobre o riacho cristalino, o explorador
+                chega ao outro lado com cuidado, sentindo o equilíbrio instável da estrutura. A árvore, apesar de
+                ser antiga e coberta por musgo, suporta o peso e permite a travessia segura.
+                Do outro lado do riacho, o explorador se depara com o antigo templo de pedra, parcialmente coberto
+                pela vegetação. A construção tem uma aparência imponente, com colunas esculpidas e uma fachada
+                ornamentada com símbolos arcanos e desgastados pelo tempo. A entrada principal é uma grande porta de
+                pedra, adornada com detalhes intrincados e uma representação de um guardião mítico.
+                Ao se aproximar da entrada, o explorador percebe que a porta está levemente entreaberta. Ao
+                empurrá-la com cuidado, a porta se abre com um som baixo e ecoante, revelando o interior do templo.
+                A luz que entra pela entrada principal ilumina o ambiente, revelando um espaço amplo e decorado com
+                relevos e inscrições nas paredes.
+                No centro do templo, há um altar coberto com uma tapeçaria antiga e uma série de objetos
+                ritualísticos dispostos ao redor. Ao explorar o interior, o explorador encontra relíquias e
+                artefatos que indicam a importância do templo como um local de adoração ou cerimônias antigas.
+                Enquanto explora o templo, o explorador é envolvido por uma sensação de reverência e mistério,
+                compreendendo que este lugar sagrado guarda segredos profundos e a conexão com uma civilização
+                perdida. A aventura chega a um ponto culminante com a descoberta de uma rica herança cultural e a
+                realização de que o verdadeiro tesouro é a compreensão do passado e da sabedoria antiga que o templo
+                preserva.
+            </p>
+            <button class="btn-proximo" data-proximo="0">FIM</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="cenario-passo10.png" alt="">
+            <p>Ao investigar o campo de flores exóticas que emitem um aroma doce e inebriante, o explorador se depara
+                com um espetáculo de cores vibrantes e formas curiosas. As flores, de tamanhos e formatos variados,
+                estão agrupadas em padrões que parecem formar uma espécie de símbolo ou mensagem natural.
+                Enquanto examina de perto as flores, o explorador nota que algumas delas têm pétalas que brilham
+                sutilmente e parecem quase translúcidas. Além disso, há um cheiro adocicado que se torna cada vez mais
+                forte à medida que se aproxima de uma área específica no campo.
+                No centro do campo, escondida entre as flores, o explorador encontra uma pequena caixa de madeira
+                enterrada parcialmente sob a vegetação. A caixa é decorada com entalhes intricados e parece ter sido
+                deixada ali há muito tempo. Ao abri-la, revela um conjunto de objetos preciosos e curiosos, incluindo
+                joias, moedas antigas e um pergaminho enrolado.
+                O pergaminho, quando desenrolado, mostra um mapa antigo da região, com marcas e anotações que indicam a
+                localização de outros pontos de interesse e possíveis segredos escondidos. O campo de flores, com seu
+                aroma encantador e beleza surreal, não só esconde um tesouro material, mas também fornece pistas
+                valiosas para futuras explorações.
+                O explorador percebe que o verdadeiro valor encontrado neste campo está na descoberta de novos caminhos
+                e na compreensão de que a beleza da natureza muitas vezes oculta mistérios e oportunidades para uma
+                jornada ainda mais profunda.
+            </p>
+            <button class="btn-proximo" data-proximo="0">FIM</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11.png" alt="">
+            <p>Ao levar o amuleto e explorar mais o altar, o explorador percebe que a peça antiga, com seus símbolos
+                enigmáticos e a pedra preciosa em seu centro, parece ter uma importância significativa. O amuleto é
+                cuidadosamente colocado na cavidade do altar, e imediatamente as inscrições ao redor começam a brilhar
+                com uma luz suave e pulsante.
+                Com o amuleto posicionado, o altar revela um mecanismo oculto. O explorador ouve um som de engrenagens
+                se movendo e observa que uma parte do altar se desloca para revelar um compartimento secreto. Dentro do
+                compartimento, há um livro antigo encadernado em couro, coberto por uma fina camada de poeira.
+                Ao abrir o livro, o explorador encontra páginas repletas de textos e ilustrações que descrevem rituais
+                antigos e histórias da civilização que um dia habitou a região. As páginas revelam detalhes sobre a
+                cultura, crenças e práticas dos antigos habitantes, além de mapas e instruções sobre como acessar outros
+                locais sagrados e secretos.
+                O altar, agora parcialmente desenterrado, também mostra que há mais compartimentos e mecanismos a serem
+                explorados, sugerindo que o lugar pode ter sido um centro de poder e conhecimento para a civilização
+                perdida. A descoberta do livro e dos detalhes adicionais no altar fornece uma visão profunda sobre a
+                antiga cultura e abre novas possibilidades para a exploração.
+                O explorador, agora com um entendimento mais claro da importância do altar e do amuleto, sente que a
+                jornada não apenas revelou tesouros materiais, mas também desbloqueou um rico legado histórico e
+                cultural. A descoberta do livro e dos segredos do altar oferece uma sensação de realização e um convite
+                para continuar desvendando os mistérios da antiga civilização.
+            </p>
+            <button class="btn-proximo" data-proximo="0">FIM</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="cenario-passo12.png" alt="">
+            <p>Ao colocar o amuleto de volta na cavidade do altar e cobri-lo novamente com as raízes e musgo, o
+                explorador dá um último olhar ao altar, observando os símbolos e o ambiente ao redor. A sensação de
+                reverência é palpável, e há uma sensação de que o altar deve permanecer intacto para preservar o
+                equilíbrio e a integridade do local sagrado.
+                Com o amuleto de volta em seu lugar, o explorador decide seguir pela trilha que se estende à frente,
+                afastando-se do altar. A trilha continua através da floresta, agora com uma sensação renovada de
+                propósito e um respeito profundo pelos segredos antigos que foram descobertos.
+                A trilha leva o explorador por um caminho sinuoso, onde a vegetação se torna mais espessa e o som da
+                floresta é mais intenso. Depois de algum tempo, o caminho emerge em uma nova clareira, onde se encontra
+                uma antiga estrutura de pedra, aparentemente inexplorada. A construção tem uma aparência de um antigo
+                observatório ou templo, com colunas imponentes e uma cúpula que se destaca contra o céu.
+                A clareira ao redor da estrutura é tranquila, e a construção parece ter sido cuidadosamente preservada
+                pelo tempo. O explorador percebe que esta nova descoberta pode oferecer ainda mais percepções sobre a
+                civilização antiga e os segredos que a floresta esconde.
+                Com um senso de antecipação e curiosidade renovada, o explorador se aproxima da estrutura, pronto para
+                desvendar o próximo capítulo da jornada e descobrir o que mais esta antiga floresta tem a revelar.
+            </p>
+            <button class="btn-proximo" data-proximo="0">FIM</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="cenario-passo13.png" alt="">
+            <p>Ao atravessar a ponte de madeira e se aproximar da grande porta de pedra do templo, o explorador sente a
+                magnitude e o mistério que emana do lugar. A porta, adornada com detalhes intricados e uma imagem de um
+                guardião esculpido, está levemente entreaberta, permitindo uma entrada convidativa.
+                Ao empurrar a pesada porta, ela se abre com um som baixo e reverberante, revelando o interior do templo.
+                A luz que entra pela abertura principal ilumina um espaço grandioso e imponente, com paredes de pedra
+                cobertas de inscrições e relevos que retratam cenas e símbolos da antiga civilização. O teto alto e
+                abobadado acrescenta uma sensação de majestade ao ambiente.
+                No centro do templo, um altar elevado se destaca, coberto com uma tapeçaria antiga e cercado por velas e
+                oferendas, que parecem ter sido colocadas lá recentemente. O altar está decorado com uma série de
+                artefatos, incluindo urnas e estatuetas que representam figuras míticas e deuses antigos. O ambiente é
+                sereno, mas carregado de uma energia sagrada e reverente.
+                Explorando o templo, o explorador encontra uma série de portas e passagens laterais, cada uma levando a
+                diferentes áreas do templo, onde relíquias e artefatos adicionais estão preservados. As inscrições nas
+                paredes fornecem histórias e lendas sobre a civilização que construiu o templo, revelando um rico legado
+                cultural e espiritual.
+                Neste momento, o explorador compreende que o verdadeiro tesouro encontrado no templo é a conexão
+                profunda com a história e a espiritualidade da antiga civilização. A jornada culmina em uma experiência
+                de descoberta e reverência, oferecendo um vislumbre íntimo e significativo do passado que moldou a
+                floresta e o templo. O explorador deixa o templo com um sentimento de realização e respeito pelos
+                mistérios que foram desvendados.
+            </p>
+            <button class="btn-proximo" data-proximo="0">FIM</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <img src="cenario-passo14.png" alt="">
+            <p>Ao optar por explorar a passagem lateral dentro do templo, o explorador se desvia da entrada principal e
+                segue por um corredor estreito e escuro. A passagem lateral é menos ornamentada, com paredes de pedra
+                simples e um teto baixo, criando uma atmosfera mais íntima e sombria em comparação com a área principal
+                do templo.
+                À medida que avança, o explorador percebe que o corredor se curva em vários pontos, aumentando o senso
+                de mistério e expectativa. O som dos próprios passos ecoa suavemente nas paredes, e a iluminação das
+                tochas fixadas nas paredes fornece uma luz tremulante que lança sombras dançantes.
+                Depois de alguns minutos de caminhada, a passagem se abre para uma pequena câmara secreta. O espaço é
+                modesto, mas cheio de objetos e relíquias antigas que parecem ter sido guardadas com cuidado. No centro
+                da câmara, há um pedestal de pedra que sustenta um antigo grimório encadernado em couro, coberto por uma
+                fina camada de poeira. O livro está aberto em uma página ilustrada com símbolos esotéricos e textos em
+                uma língua antiga.
+                Ao redor do pedestal, o explorador encontra vários artefatos menores: amuletos, moedas e pequenos vasos
+                cerâmicos que parecem ter sido usados em rituais. Estes itens são delicados e detalhados, revelando a
+                habilidade e a arte dos antigos artesãos que os criaram.
+                Além do grimório e dos artefatos, há uma pequena caixa de madeira escondida em um canto da câmara. Ao
+                abri-la, revela uma coleção de joias e preciosidades, que provavelmente pertenciam a sacerdotes ou
+                líderes da antiga civilização.
+                A câmara parece ter sido um local de armazenamento de itens valiosos e sagrados, preservados ao longo
+                dos séculos. O explorador percebe que, embora menor e menos grandiosa do que o templo principal, a
+                câmara lateral guarda uma parte significativa da história e da riqueza cultural da civilização.
+                Ao deixar a câmara, o explorador sente uma sensação de satisfação ao ter descoberto este espaço
+                escondido e suas preciosidades, que oferecem uma visão ainda mais profunda da antiga cultura e suas
+                práticas sagradas. A jornada continua com a consciência de que cada canto do templo tem uma história a
+                contar e um tesouro a revelar.
+            </p>
+            <button class="btn-proximo" data-proximo="0">FIM</button>
+        </div>
     </main>
     <script src="script.js"></script>
-    
 </body>
+
 </html>
